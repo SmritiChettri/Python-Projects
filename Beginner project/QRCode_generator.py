@@ -43,7 +43,7 @@ qr_rotated = qrCode.to_pil(
 qr_rotated.save("qr_rotate.png")
 
 # ANIMATED QR code
-ani_qr = segno.make_qr("Neuvie hydro blast")
+ani_qr = segno.make_qr("https://youtu.be/Jbk8peoT6_c?si=ceukZWyDojdw4aC5")
 neuvie_url = urllib.request.urlopen("https://media1.tenor.com/m/1vkvpSAeXZoAAAAC/neuvillette-360.gif")
 ani_qr.to_artistic(
     background = neuvie_url,
